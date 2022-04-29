@@ -106,6 +106,7 @@
     .download {
       text-align: center;
       display: block;
+      background:#007bff;
     }
   </style>
 </head>
@@ -118,7 +119,7 @@
         <table>
           <tr>
             <td class="title">
-              <h1>Hospital Management</h1>
+              <h1>Hospital Management System</h1>
             </td>
 
             <td>
@@ -229,7 +230,7 @@
 </div>
 <br><br>
 <div class="download">
-  <a style="background:red; width:500px;" href="{% url 'download-pdf' patientId  %}">Download</a>
+  <a style="background:#4A00E0; width:500px; padding: 18px; border-radius: 10px;" href="{% url 'download-pdf' patientId  %}">Download Invoice</a>
 </div>
 
 {% endblock content %}
